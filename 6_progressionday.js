@@ -31,10 +31,10 @@ let myobj = {
 
 }
 
-const myFunction (){ 
-console.log("Hello World !!")
+// const myFunction (){ 
+// console.log("Hello World !!")
 
-}
+// }
 
 //now see the all type of the values or thed 
 //datadypes of the values
@@ -49,3 +49,26 @@ console.log("Hello World !!")
 array , objects , Functions 
 
 */
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++=+
+
+//stack(primitive), Heap ( non-primitive)
+
+let myYoutubename = "TanjumulGaming"
+
+let anotherYoutubeName = myYoutubename 
+anotherYoutubeName = "TanjuYogg"
+
+console.log(myYoutubename)
+console.log(anotherYoutubeName)
+let userOne = { 
+    name: "Tanjumul", 
+    email : "balbla@gmail.com",
+    bkash: 017 ,
+}
+
+let userTwo = userOne 
+userTwo.email = "tanju@google.com"
+console.log(userOne.email)
+console.log(userTwo.email)
