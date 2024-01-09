@@ -1,1 +1,1 @@
-console.log("hell yah just testing")
+/* string on this file tho  */
