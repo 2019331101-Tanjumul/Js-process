@@ -45,12 +45,44 @@ const newstringOne = "    hitanju";
 console.log(newstringOne); //it is basically pring the spaces and the characters of the lines only
 console.log(newstringOne.trim()); // it clears out the additonal spaces from the strings   
 
+const url = "https://TanjumulBlog%200AndVlog.com"
+console.log(url.replace('%200','-')) // basically it will find the %200 and then replace it with the - it is that simple
+// to chacek a specific keywords is it available in the string or not we use 
+console.log(url.includes('siam')); //if it is not there then it is false if it is there then it will say true
+
+const newvaluetwo = "Tanjumul-will-complete-his-graduation-on-time-inshAllah"
+
+console.log(newvaluetwo.split('-'));
+
+console.log("Here it ends for the day here with strings most of the cases that is importent")
 
 
 
+/*
+Final Output : 
+Here the name of the consumer of this service is Tanjumul and the age of this person is 24
+[String: 'Tanjumul-Alom']
+a
+{}
+TANJUMUL-ALOM
+tanjumul-alom
+j
+And the Character is : j
+3
+an
 
-
-
-
-
-
+    hitanju
+hitanju
+https://TanjumulBlog-AndVlog.com
+false
+[
+  'Tanjumul',
+  'will',
+  'complete',
+  'his',
+  'graduation',
+  'on',
+  'time',
+  'inshAllah'
+]
+Here it ends for the day here with strings most of the cases that is importent */
