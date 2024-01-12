@@ -27,7 +27,7 @@ console.log(Math);
 
 console.log(Math.abs(numBer)) //abs basically a function works with math library and the concept here to turn negative values into positve only 
 
-
+console.log(" coding on ipad "); 
 
 
 
