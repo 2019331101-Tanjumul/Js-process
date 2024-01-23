@@ -40,3 +40,10 @@ let newDate = new Date();
 console.log(newDate);
 console.log(newDate.getMonth());
 console.log(newDate.getDate());
+console.log(newDate.getMonth() + 1);
+newDate.toLocaleString("Default", {
+  // use ctrl + space
+  //to use the more options
+  weekday: "long",
+});
+console.log(newDate);
