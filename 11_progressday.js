@@ -33,3 +33,5 @@ console.log(
 console.log(myTimeStamp);
 console.log(myCCreatedDate.getTime());
 /* basically here i am compareing the current date and time to the previous date and time when i put the date to create the project */
+console.log(Date.now());
+console.log(Math.floor(Date.now() / 1000));
