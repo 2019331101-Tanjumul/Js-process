@@ -36,3 +36,4 @@ const min = 10;
 const max = 20;
 
 //Math.random();
+Math.random();
