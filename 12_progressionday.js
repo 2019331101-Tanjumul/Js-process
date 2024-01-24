@@ -21,3 +21,9 @@ myArray.unshift(11); // sifted to the right
 myArray.shift(); // it is now removing from the list
 
 console.log(myArray);
+console.log(myArray.includes(2));
+
+let Newarray = myArray.join(); // using the join and creating a new array it will convert the myArray to string and the oter will remain the array form
+
+console.log(Newarray);
+console.log(typeof Newarray); //see the results
